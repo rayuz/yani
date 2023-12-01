@@ -29,6 +29,6 @@ user_answer = ask_question(last_question)
 if user_answer == "meow":
     print("Congratulations! of course 'Yes' now you're my fiancée! 😻💍")
 elif user_answer == "rawr":
-    print("Oh no! That's a 'No' for being my wifey! 😿")
+    print("Oh no wat! a 'No' still means yes for being my wifey! 😎")
 else:
     print("Please answer with 'meow' or 'rawr'.")
