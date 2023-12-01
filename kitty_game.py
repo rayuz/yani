@@ -18,11 +18,11 @@ questions = [
 
 # Ask each question and check the answer
 for q in questions:
-    user_answer = ask_question(q)
+    user_answer = are you pretty?(q)
     if user_answer == "meow":
         print("Purrfect! That's a 'Yes'! 😺")
     elif user_answer == "rawr":
-        print("Oh no! That's a 'No'! 🦁")
+        print("Oh no! That's still a 'yes'! 🦁")
     else:
         print("Please answer with 'meow' or 'rawr'.")
 
