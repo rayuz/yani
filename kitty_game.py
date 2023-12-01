@@ -1,8 +1,3 @@
-#yani
-# /\_/\       -----
-#( o.o )_____/  |
-# > ^ <       /____|
-
 # Function to ask a question and check the answer
 def ask_question(question):
     answer = input(f"{question} (Answer with 'meow' or 'rawr'): ").lower()
@@ -18,7 +13,7 @@ questions = [
 
 # Ask each question and check the answer
 for q in questions:
-    user_answer = are you pretty?(q)
+    user_answer = ask_question(q)  # Corrected function call
     if user_answer == "meow":
         print("Purrfect! That's a 'Yes'! 😺")
     elif user_answer == "rawr":
